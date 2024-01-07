@@ -44,7 +44,7 @@ Có thể xem danh sách các công ty đã cung cấp sản phẩm cho mình, v
 #### 3.Quản Lý Sản Phẩm:
 Quản trị viên có thể thêm, sửa đổi và xóa sản phẩm từ trang web của mình.
 #### 4.Quản Lý Đơn hàng:
-Có thể xem danh sách các đơn hàng đã được đặt bởi công ty khách hàng.
+Có thể xem danh sách các đơn hàng đã được đặt bởi công ty khách hàng và giao hàng cho họ. 
 #### 5.Xem tin nhắn từ các công ty khách hàng:
 Có thể xem danh sách lời nhắn của các công ty đã gửi tin về cho mình.
 
