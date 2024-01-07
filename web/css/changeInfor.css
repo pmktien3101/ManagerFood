@@ -1,0 +1,135 @@
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap');
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                user-select: none;
+            }
+            #wrapper {
+                background: url('https://devforum.info/DEMO/LoginForm2/bg.jpg');
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+            }
+
+            #wrapper:after{
+                position: absolute;
+                content: '';
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background: rgba(0,0,0,0.7);
+            }
+            #form-login {
+                width: 800px;
+                height: 450px;
+                flex-grow: 1;
+                box-shadow: 0px 0px 17px 2px rgba(8, 8, 8, 0.8);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                z-index: 999;
+                text-align: center;
+                padding: 60px 32px;
+                transform: translate(-50%,-50%);
+                background: rgba(255,255,255,0.04);
+            }
+
+
+            #form {
+                height: 100%;
+                margin-left: 10px;
+                padding: 10px 10px;
+
+            }
+
+            .form-heading {
+                font-family: 'Montserrat',sans-serif;
+                font-weight: bold;
+                font-size: 25px;
+                color: #ffffff;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            .form-group {
+                border-bottom: 1px solid #fff;
+                margin-top: 15px;
+                margin-bottom: 20px;
+                display: flex;
+            }
+
+            .term {
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+
+            .form-group i {
+                color: #ffffff;
+                font-size: 14px;
+                padding-top: 5px;
+                padding-right: 10px;
+            }
+
+            .form-input {
+                background: transparent;
+                border: 0;
+                outline: 0;
+                color: #fffefe;
+                flex-grow: 1;
+            }
+            .accountInfo h3{
+                font-family: 'Montserrat',sans-serif;
+                
+                color: #fff;
+            }
+            .form-lable {
+                color: #fff;
+            }
+            .form-input:hover {
+                border: 1px solid #55f704;
+            }
+
+            .form-input::placeholder {
+                color: #cbc1c1;
+            }
+
+            .eye i {
+                padding-right: 0;
+                cursor: pointer;
+            }
+
+            .form-submit {
+                margin: 0px 0px 10px 0px;
+                background-color: #2ca4d4;
+                border: 1px solid #f5f5f5;
+                color: #efe8e8;
+                width: 100%;
+                text-transform: uppercase;
+                padding: 5px 0px;
+                transition: 0.25s ease-in-out;
+                cursor: pointer;
+            }
+
+            .form-submit:hover {
+                border: 1px solid #151515;
+                background-color: #e89521;
+            }
+
+            .infor {
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .red {
+                color: red;
+            }
+
+            .comback a{
+                color: white;
+                text-decoration: none;
+            }
+            .comback a:hover {
+                color: red;
+            }

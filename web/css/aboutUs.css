@@ -1,0 +1,37 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 3, 2024, 2:36:16 PM
+    Author     : MSI PC
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(225, 238, 250);
+}
+
+.about-section {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.content-section {
+    background-color: white;
+    padding: 35px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+.footer {
+    margin-bottom: 0px;
+    margin-top: 99px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}

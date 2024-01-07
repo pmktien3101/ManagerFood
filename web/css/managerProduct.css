@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 31, 2023, 9:52:15 PM
+    Author     : MSI PC
+*/
+
+.table-title{
+    background-color: black;
+    padding: 10px 0px;
+}
+.imageP{
+    width: 120px;
+    height: 120px;
+}
+.titleP{
+    color: pink;
+    font-weight: bold;
+}
+
+.btn-success{
+    background-color: orange;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.btn-danger{
+   margin-left: 30px; 
+   margin-top: 20px;
+}
+
+.red{
+    color: red;
+}
+.icons{
+    display: flex;
+}
+.edit{
+    border: none;
+}
+.home{
+     margin-left: 30px; 
+   margin-top: 30px;
+}
+.dess{
+    display: flex;
+}
+.add{
+     margin-left: 250px; 
+   margin-top: 30px;
+}
+.desss button{
+    padding: 8px 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+.update{
+    display: flex;
+}
+.small-input {
+    width: 20px; 
+}
+
+.remove{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.return{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.checkout{
+    margin-left: 400px;
+    margin-bottom: 10px;
+}
+.dessss{
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.footer {
+    margin-bottom: 0px;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}

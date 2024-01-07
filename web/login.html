@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .content{
+            width: 500px;
+            height: 300px;
+            border: 1px solid black;
+        }
+    </Style>
+</head>
+<body>
+    <div class="bg-img">
+        <div class="content">
+            <header>Form Login</header>
+
+            <form action="Login" method="post">
+                <div class="field">
+                    <span class="fa fa-user"></span>
+                    <input type="text" id="email" name="email" required placeholder="UserName">
+                </div>
+                <div class="field space">
+                    <span class="fa fa-lock"></span>
+                    <input type="password" class="pass-key" id="password" name="password" required placeholder="Password">
+                </div>
+                
+                <div class="pass">
+                    <a href="forgotPassword.jsp">Forgot Password?</a>
+                </div>
+                <div class="field">
+                    <input type="submit" value="LOGIN">
+                </div>
+                
+            </form>
+
+            <div class="signup">
+                Don't have account?
+               <a>Register Now</a>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,356 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#wrapper {
+    /* Kích thước màn hình là 1280 x 720 */
+    width: 100%;
+    height: 100vh;
+}
+
+#header {
+    width: 100%;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    font-weight: 400;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+}
+
+#menu .item:hover {
+    background: orange;
+    cursor: pointer;
+}
+
+#menu .item {
+    margin: 0px 25px;
+}
+
+#menu .item a {
+    color: #626A67;
+    text-decoration: none;
+}
+.cart{
+    cursor: pointer;
+}
+#account {
+    display: flex;
+    justify-content: space-around;
+
+}
+.dropstart{
+    border: 1px solid black;
+
+
+}
+.dropstart a:hover{
+    color: red;
+}
+.search{
+    display: flex;
+
+}
+.search button:hover{
+    background-color: #a7e1f2;
+}
+.tien{
+    padding: 5px 0;
+    color: white;
+    background-color:  black;
+    border: 1px rgb(12, 12, 12) solid;
+    border-radius: 15px;
+}
+.tien a{
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+}
+.tien a:hover{
+    background: orange;
+}
+.fa-user{
+    margin-left: 5px;
+}
+.tien:hover {
+    background: orange;
+    cursor: pointer;
+}
+
+.show{
+    margin-top: 0px;
+}
+#banner {
+    background-color: rgb(225, 238, 250);
+    width: 100%;
+    height: 463px;
+    display: flex;
+    padding: 0px 133px;
+    position: relative;
+
+}
+
+#banner .box-left,
+#banner .box-right {
+    width: 50%;
+}
+
+#banner .box-left h2 {
+    font-size: 48px;
+    margin-top: 75px;
+    margin-left: 0;
+    color: #fff;
+}
+
+#banner .box-left p {
+    color: #a09b9b;
+}
+
+#banner .box-left button {
+    width: 191px;
+    height: 40px;
+    margin-top: 41px;
+    background: #1d1a1a;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.4s;
+    position: relative;
+}
+.orderN fa-cart-shopping{
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box-left h2 span {
+    color: #1d1a1a;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#banner .box-left button:hover {
+    background: orange;
+    cursor: pointer;
+}
+
+#banner .box-right {
+    padding-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .box-right img {
+    margin: 0px 10px;
+    animation: animation 3s infinite linear;
+}
+
+
+#banner .box-right img:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+#banner .box-right img:nth-child(2) {
+
+    animation-delay: 1s;
+}
+
+@keyframes animation {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
+.btn-outline-success{
+    color: black;
+}
+
+.footer {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.checked {
+    color: rgb(234, 221, 198);
+}
+#menu button{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: none;
+
+}
+#menu button:hover {
+    background-color: #a7e1f2;
+}
+
+
+.di {
+    margin-left: 80px;
+}
+
+.best_seller-title {
+    text-align: center;
+    color: red;
+}
+
+.best_seller_info {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.new_sale_off-title {
+    text-align: center;
+    color: rgb(243, 184, 184);
+}
+
+.new_sale_off-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* Enable wrapping to start a new row */
+    justify-content: space-around;
+    /* Adjust as needed */
+}
+
+.new_sale_off-item {
+    overflow: hidden;
+    width: 250px;
+    height: 380px;
+    /* Set a fixed width for each item */
+    margin: 20px 10px;
+    /* Adjust margin as needed */
+    box-shadow: 0px 0px 10px rgb(101, 99, 99);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.new_sale_off-item img {
+    width: 100%;
+}
+
+
+.new_sale_off-item p {
+    color: orangered;
+    font-weight: 600;
+}
+
+.new_sale_off-item del {
+    color: rgb(100, 102, 102);
+    font-weight: 100;
+}
+
+.new_sale_off-itemS h4::first-letter {
+    text-transform: uppercase;
+}
+
+.btn-secondary {
+    background-color: rgb(122, 184, 209);
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.btn-secondary:hover {
+    color: orange;
+}
+.new_sale_off {
+    margin: 40px 0px;
+}
+
+.choose h2 {
+    padding: 5px 0px;
+    margin-left: 20px;
+    color: rgb(243, 184, 184);
+}
+
+.header_menu {
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.header_menu:hover {
+    color: red;
+}
+
+.category {
+    background-color: rgb(122, 184, 209);
+}
+.brand{
+       background-color: rgb(122, 184, 209);
+}
+.red{
+    color: red;
+}
+.alert{
+    color: red;
+    text-align: center;
+}
+.productImage{
+    width: 100%;
+    height: 200px;
+}
+.linkCategory{
+    text-decoration: none;
+    color: black;
+}
+.nameProduct{
+    text-decoration: none;
+    color: black;
+}
+.nu{
+    width: 10px;
+}
+.input-group {
+    justify-content: center;
+    text-align: center;
+    
+}
+.cart{
+    text-decoration: none;
+    color: black;
+}
+.sold-out{
+    color: pink;
+    font-weight: 600;
+}
