@@ -1,0 +1,4 @@
+ERD: 
+https://app.diagrams.net/?src=about#G1QXUzsdc_08VtUy6Az4QresMom3Vdm_JD
+3NF:
+https://docs.google.com/spreadsheets/d/1zd6Fe2Zg-08vsTfjrIoYPkGTKH7VQS41h6mWiHjuTss/edit#gid=0
